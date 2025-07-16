@@ -114,5 +114,5 @@ Run the complete test suite:
 Production Build:
     ```bash
     # Build both frontend and backend
-    cd client && yarn build
-    cd ../server && yarn build
+      cd client && yarn build
+      cd ../server && yarn build
