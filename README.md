@@ -87,3 +87,13 @@ A production-ready job portal application built with modern technologies followi
    # Edit the files with your configuration
 
 4. Run the application:   
+   ```bash
+   # Start backend server
+   cd server && yarn dev
+
+   # Start frontend in another terminal
+   cd client && yarn start
+
+### Running with Docker
+```bash
+docker-compose up --build
