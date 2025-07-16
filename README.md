@@ -71,3 +71,9 @@ A production-ready job portal application built with modern technologies followi
    cd job-portal
 
 2. Install dependencies:
+```bash
+# Install backend dependencies
+cd server && yarn install
+
+# Install frontend dependencies
+cd ../client && yarn install
