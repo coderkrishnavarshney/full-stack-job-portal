@@ -95,5 +95,30 @@ A production-ready job portal application built with modern technologies followi
    cd client && yarn start
 
 ### Running with Docker
-```bash
-docker-compose up --build
+    ```bash
+    docker-compose up --build
+
+### Testing
+Run the complete test suite:
+    ```bash
+    # Backend tests
+    cd server && yarn test
+
+    # Frontend tests
+    cd client && yarn test
+
+    # End-to-end tests (requires the app to be running)
+    yarn test:e2e
+
+### Deployment
+Production Build:
+    ```bash
+    # Build both frontend and backend
+    cd client && yarn build
+    cd ../server && yarn build
+Cloud Deployment:
+The project includes configurations for:
+AWS Elastic Beanstalk
+Google Cloud Run
+Vercel (frontend)
+Heroku (backend)
