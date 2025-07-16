@@ -79,3 +79,11 @@ A production-ready job portal application built with modern technologies followi
    cd ../client && yarn install
 
 3. Set up environment variables:
+   ```bash
+   # Copy example environment files
+   cp server/.env.example server/.env
+   cp client/.env.example client/.env
+
+   # Edit the files with your configuration
+
+4. Run the application:   
