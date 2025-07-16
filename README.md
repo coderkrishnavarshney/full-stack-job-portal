@@ -95,7 +95,7 @@ A production-ready job portal application built with modern technologies followi
    cd client && yarn start
 
 ### Running with Docker
-    ```bash
+    
     docker-compose up --build
 
 ### Testing
