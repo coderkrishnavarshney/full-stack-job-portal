@@ -116,9 +116,3 @@ Production Build:
     # Build both frontend and backend
     cd client && yarn build
     cd ../server && yarn build
-Cloud Deployment:
-The project includes configurations for:
-AWS Elastic Beanstalk
-Google Cloud Run
-Vercel (frontend)
-Heroku (backend)
