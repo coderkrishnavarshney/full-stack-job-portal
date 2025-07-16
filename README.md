@@ -112,10 +112,10 @@ Run the complete test suite:
 
 ### Deployment
 Production Build:
-```bash
-# Build both frontend and backend
-cd client && yarn build
-cd ../server && yarn build
+    ```bash
+    # Build both frontend and backend
+    cd client && yarn build
+    cd ../server && yarn build
 
 Cloud Deployment:
 The project includes configurations for:
